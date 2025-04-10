@@ -26,3 +26,9 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+footer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
