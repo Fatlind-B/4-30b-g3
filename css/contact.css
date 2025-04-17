@@ -51,7 +51,8 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+
+.container2 {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -59,12 +60,12 @@ input[type=submit]:hover {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
   margin-bottom: 16px; 
   resize: vertical 
 }
@@ -86,7 +87,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #363333;
   padding: 20px;
 }
 
@@ -113,3 +114,8 @@ input[type=submit]:hover {
   vertical-align: middle;
   margin: 2%;
 }
+
+@media only screen and (max-width:700px){
+  header{
+    flex-direction: column;
+  }
