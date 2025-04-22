@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
 </head>
 <body>
 
@@ -28,7 +29,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="img/foto1.jpg" alt="Ilire" class="team-member">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6n8nPmLbMkq-XRp8HuuCyClmebKnVBS2eUen4EosULEgbcFK_bgZtvXQj-Q1xC9FDFdc&usqp=CAU" alt="Ilire" class="team-member">
         <div class="container">
           <h2>Ilire Murtezi</h2>
           <p class="title">CEO & Founder</p>
@@ -41,7 +42,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="img2.jpg" alt="Tuana" class="team-member">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_nSOJAxwx3zc7L_OqSkKLd-exXuc5cBHJW2IZGFCdNvv8lWcq1Icy6U&s" alt="Tuana" class="team-member">
         <div class="container">
           <h2>Tuana</h2>
           <p class="title">Art Director</p>
@@ -57,7 +58,7 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="img3.jpg" alt="Fatlind" class="team-member">
+        <img src="https://i.pinimg.com/474x/9b/78/0a/9b780ad12f3f0815b95bbe7d6c419a8d.jpg" alt="Fatlind" class="team-member">
         <div class="container">
           <h2>Fatlind</h2>
           <p class="title">Designer</p>
@@ -70,7 +71,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="img3.jpg" alt="Riol" class="team-member">
+        <img src="https://i.pinimg.com/236x/0d/4f/53/0d4f53c1910e6a65ff873263a7a5117c.jpg" alt="Riol" class="team-member">
         <div class="container">
           <h2>Riol</h2>
           <p class="title">Designer</p>
@@ -83,12 +84,48 @@
   </div>
 </div>
 
+
+ <div class="container">
+        <h1>Why BikerBash?</h1>
+        
+        <div class="content">
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/7e/48/2f/7e482fd41e7936ae4f8a2779711aa03a.jpg" alt="Biker Bash Image">
+            </div>
+            <div class="text">
+                <p>Biker Bash is the heart and soul of the motorcycle world, an electrifying event where the roar of engines and the thrill of the ride come together in an unforgettable celebration of speed, style, and brotherhood. It’s a one-of-a-kind experience that captures the essence of what it means to be a rider—free, fearless, and always chasing the horizon. Whether you're a die-hard enthusiast or just beginning your journey into the world of motorcycles, Biker Bash has something for everyone. Get ready for an action-packed weekend filled with adrenaline-fueled stunt shows, high-speed races, and jaw-dropping bike exhibitions that showcase the best of custom craftsmanship. But it’s not just about the bikes—it’s about the people you meet along the way, the friendships forged over shared experiences, and the stories that bond riders together. From exclusive gear and parts to delicious food, live bands, and a massive marketplace, Biker Bash is a full-throttle adventure that brings the biker community together like never before. If you live for the ride and want to experience the ultimate motorcycle culture, Biker Bash is the place to be. Come for the action, stay for the lifestyle, and leave with a passion for motorcycling that’s more powerful than ever.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+      <div class="container">
+        <div class="content">
+            <div class="text">
+                <h2>Biker Bash company!</h2>
+                <p>BikerBash is the ultimate destination for all motorcycle enthusiasts. We provide top-notch gear, accessories, and a community of passionate riders. Whether you’re a seasoned biker or just starting out, BikerBash has something for you!</p>
+            </div>
+            <div class="image">
+                <img src="https://i.pinimg.com/236x/90/99/ca/9099ca689ffee759a2f6df0640c10919.jpg" alt="Biker Bash Image" />
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    
+</body>
+</html>
+ 
+
+
+
+
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  CSS--
+css 
 
-
-  body{
+ body{
   padding: 0px;
   margin: 0px;
 }
@@ -221,8 +258,9 @@ li a:hover {
 }
 
 .card img {
-  width: 100%;
-  border-radius: 10px;
+  width: 50%;
+  border-radius: 20px;
+  height: 50%;
 }
 
 
@@ -257,6 +295,121 @@ li a:hover {
 .button:hover {
   background-color: #555;
 }
+ 
+ /* img paragraph */
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style for the title "Why BikerBash?" */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for the content area */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Image styling */
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Text styling */
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Container to center content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style for the title "Why BikerBash?" */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for the content area */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Text styling - Now appears on the left */
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Image styling - Now appears on the right */
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
 
 /* Responsive desing   */
 @media (max-width: 768px) {
@@ -264,6 +417,10 @@ li a:hover {
     flex: 1 1 100%;
   }
 }
+
+
+
+
  
 
 
