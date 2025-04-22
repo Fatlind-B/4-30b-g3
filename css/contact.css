@@ -98,7 +98,9 @@ input[type=submit]:hover {
     box-sizing: border-box;
 }
 
-
+.questions{
+  margin-left: 100px;
+}
 
 .container {
     display: flex;
