@@ -34,7 +34,15 @@ footer img{
   border-radius: 50%;
 }
 
+/* Body styling */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/* Main Section Styling */
 main {
   padding: 60px 20px;
   background: linear-gradient(135deg, #f4f4f4 0%, #e0eafc 100%);
@@ -52,7 +60,7 @@ main {
 }
 
 #main-div h1 {
-  font-size: 2.6em;
+  font-size: 3em;
   margin-bottom: 20px;
   color: #0b0b0b;
 }
@@ -61,6 +69,10 @@ main {
   font-size: 1.2em;
   line-height: 1.8;
   color: #444;
+  max-width: 850px;
+  margin: auto;
+  padding: 10px 0;
+  text-align: justify;
 }
 
 /* Product Section */
@@ -108,7 +120,7 @@ main {
   -webkit-text-fill-color: transparent;
 }
 
-/* Section: Our Work */
+/* Section 2: Bike Racing */
 #section2 {
   padding: 80px 20px;
   background: #111;
@@ -123,6 +135,7 @@ main {
   text-shadow: 0 0 10px rgba(0, 170, 255, 0.5);
 }
 
+/* Image-Text Layout */
 #image-text1 {
   display: flex;
   flex-wrap: wrap;
@@ -153,6 +166,23 @@ main {
   color: #ddd;
 }
 
+/* New Additional Content */
+#section2 .sub-header {
+  font-size: 2.2em;
+  margin-top: 40px;
+  color: #00bfff;
+  text-shadow: 0 0 8px rgba(0, 191, 255, 0.5);
+}
+
+#section2 .sub-paragraph {
+  font-size: 1.2em;
+  line-height: 1.8;
+  color: #bbb;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: justify;
+}
+
 /* Animation */
 @keyframes fadeInUp {
   from {
@@ -165,7 +195,7 @@ main {
   }
 }
 
-
+/* Responsive Styling */
 @media (max-width: 768px) {
   #motorrat {
     flex-direction: column;
@@ -179,5 +209,13 @@ main {
 
   #image-text1 p {
     text-align: justify;
+  }
+
+  #section2 .sub-header {
+    font-size: 1.8em;
+  }
+
+  #section2 .sub-paragraph {
+    font-size: 1.1em;
   }
 }
